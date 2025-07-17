@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Switch TP-LINK TL-SG3424P administrable de 24 puertos PoE Gigabit y 04 puertos SFP para fibra. Solución ideal para redes empresariales." />
+  <meta name="keywords"
+    content="TP-LINK, TL-SG3424P, switch administrable, PoE, Gigabit, 24 puertos, SFP, fibra, gestión de red, QoS, VLAN, switch capa L2, Perú" />
+  <meta name="author" content="ds3comunicaciones" />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/TL-SG3424P.css" />
+
+  <title>
+    Switch TP-LINK TL-SG3424P Administrable 24 puertos PoE Gigabit + 4 SFP - DS3 Comunicaciones
+  </title>
+</head>
+
+<body class="bg-gray-50">
+
+  <header class="bg-white shadow-lg sticky top-0 z-50 nav-sticky">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     
+      <div class="flex items-center justify-between py-2 border-b border-gray-100">
+        <div class="flex items-center space-x-4 text-sm text-gray-600">
+          <span class="flex items-center">
+            <i class="fas fa-phone text-blue-600 mr-1"></i>
+            +51 994 428 965
+          </span>
+          <span class="flex items-center">
+            <i class="fas fa-envelope text-blue-600 mr-1"></i>
+            netperu100@hotmail.com
+          </span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://wa.me/994428965" target="_blank" class="text-gray-600 hover:text-green-600 transition-colors">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    
+      <nav class="py-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-8">
+            <img src="http://www.ds3comunicaciones.com/mikrotik/images/Logo1.jpg" alt="DS3 Comunicaciones" class="h-10 w-auto">
+            <div class="hidden lg:flex space-x-6">
+              <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Inicio</a>
+              <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Productos</a>
+              <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Marcas</a>
+              <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Soporte</a>
+              <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contacto</a>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4">
+            <button class="lg:hidden p-2 rounded-md text-gray-700 hover:text-blue-600">
+              <i class="fas fa-bars text-xl"></i>
+            </button>
+            <a href="https://www.ds3comunicaciones.com/pedido.html" 
+               class="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition-colors">
+              Cotizar
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="bg-gray-100 border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+      <div class="flex items-center space-x-2 text-sm text-gray-600">
+        <a href="#" class="hover:text-blue-600 transition-colors">
+          <i class="fas fa-home"></i>
+        </a>
+        <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+        <a href="#" class="hover:text-blue-600 transition-colors">TP-LINK</a>
+        <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+        <a href="#" class="hover:text-blue-600 transition-colors">Switches</a>
+        <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+        <span class="text-gray-800 font-medium">TL-SG3424P</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white border-b shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex overflow-x-auto scrollbar-hide py-4 space-x-8">
+        <a href="#" class="flex items-center space-x-2 text-blue-600 border-b-2 border-blue-600 pb-1 whitespace-nowrap">
+          <i class="fas fa-network-wired"></i>
+          <span class="font-medium">Switches</span>
+        </a>
+        <a href="#" class="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors whitespace-nowrap">
+          <i class="fas fa-router"></i>
+          <span class="font-medium">Routers</span>
+        </a>
+        <a href="#" class="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors whitespace-nowrap">
+          <i class="fas fa-wifi"></i>
+          <span class="font-medium">Access Points</span>
+        </a>
+        <a href="#" class="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors whitespace-nowrap">
+          <i class="fas fa-ethernet"></i>
+          <span class="font-medium">Adaptadores</span>
+        </a>
+        <a href="#" class="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors whitespace-nowrap">
+          <i class="fas fa-satellite-dish"></i>
+          <span class="font-medium">Antenas</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+ 
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      
+      
+      <aside class="lg:col-span-2">
+        <div class="bg-white rounded-xl shadow-lg p-6 sticky top-24">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">Nuestras Marcas</h3>
+          <div class="space-y-3">
+            <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <img src="http://www.ds3comunicaciones.com/belden/images/ALFA_logo1.gif" alt="Alfa" class="h-8 w-auto object-contain">
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <img src="http://www.ds3comunicaciones.com/cisco/images/logo-cisco.gif" alt="Cisco" class="h-8 w-auto object-contain">
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <img src="http://www.ds3comunicaciones.com/belden/images/D-Link_Logo-100x26.jpg" alt="D-Link" class="h-8 w-auto object-contain">
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <img src="http://www.ds3comunicaciones.com/belden/images/mikrotik_logo-100x24.png" alt="MikroTik" class="h-8 w-auto object-contain">
+            </a>
+            <a href="#" class="block p-3 rounded-lg bg-blue-50 border-2 border-blue-200 transition-colors">
+              <img src="http://www.ds3comunicaciones.com/belden/images/tp-link_logo-100x13.jpg" alt="TP-Link" class="h-8 w-auto object-contain">
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 transition-colors">
+              <img src="http://www.ds3comunicaciones.com/belden/images/ubnt_logo-100x47.png" alt="Ubiquiti" class="h-8 w-auto object-contain">
+            </a>
+          </div>
+        </div>
+      </aside>
+
+   
+      <div class="lg:col-span-8">
+    
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
+          
+            <div class="space-y-4">
+              <div class="bg-gray-50 rounded-xl p-8 aspect-square flex items-center justify-center">
+                <img id="main-image" 
+                     src="./icons/TL-SG3424P_front.jpg" 
+                     alt="Switch TP-LINK TL-SG3424P" 
+                     class="max-w-full max-h-full object-contain cursor-pointer hover:scale-105 transition-transform"
+                     onclick="openImageModal(this.src)">
+              </div>
+              
+              <div class="grid grid-cols-4 gap-3">
+                <div class="bg-gray-50 rounded-lg p-2 cursor-pointer hover:ring-2 hover:ring-blue-500 transition-all">
+                  <img src="./icons/TL-2.jpg"
+                       alt="Vista frontal" class="w-full h-full object-contain" onclick="changeMainImage(this.src)">
+                </div>
+                <div class="bg-gray-50 rounded-lg p-2 cursor-pointer hover:ring-2 hover:ring-blue-500 transition-all">
+                  <img src="./icons/TL-3.jpg"
+                        alt="Vista lateral" class="w-full h-full object-contain" onclick="changeMainImage(this.src)">
+                </div>
+                <div class="bg-gray-50 rounded-lg p-2 cursor-pointer hover:ring-2 hover:ring-blue-500 transition-all">
+                  <img src="./icons/TL-2.jpg"
+                        alt="Vista trasera" class="w-full h-full object-contain" onclick="changeMainImage(this.src)">
+                </div>
+                <div class="bg-gray-50 rounded-lg p-2 cursor-pointer hover:ring-2 hover:ring-blue-500 transition-all">
+                  <img src="./icons/TL-2.jpg"
+                      alt="Conexiones" class="w-full h-full object-contain" onclick="changeMainImage(this.src)">
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="space-y-6">
+              <div>
+                <h1 class="text-3xl font-bold text-gray-900 mb-2">
+                  Switch TP-LINK TL-SG3424P
+                </h1>
+                <p class="text-lg text-gray-600">
+                  Switch Administrable de 24 puertos PoE Gigabit + 4 puertos SFP
+                </p>
+              </div>
+              <div class="flex items-center space-x-4">
+                <div class="price-badge text-white px-6 py-3 rounded-full">
+                  <span class="text-2xl font-bold">US$ 509.00</span>
+                </div>
+                <div class="flex space-x-2">
+                  <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">En Stock</span>
+                  <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Envío Gratis</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4">
+                <div class="feature-icon text-white p-4 rounded-lg">
+                  <div class="flex items-center space-x-3">
+                    <i class="fas fa-ethernet text-2xl"></i>
+                    <div>
+                      <div class="font-semibold">24 Puertos</div>
+                      <div class="text-sm opacity-90">Gigabit PoE</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                  <div class="flex items-center space-x-3">
+                    <i class="fas fa-bolt text-2xl text-yellow-600"></i>
+                    <div>
+                      <div class="font-semibold text-gray-900">320W PoE</div>
+                      <div class="text-sm text-gray-600">Presupuesto total</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                  <div class="flex items-center space-x-3">
+                    <i class="fas fa-cog text-2xl text-blue-600"></i>
+                    <div>
+                      <div class="font-semibold text-gray-900">Capa L2</div>
+                      <div class="text-sm text-gray-600">Administrable</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                  <div class="flex items-center space-x-3">
+                    <i class="fas fa-tachometer-alt text-2xl text-green-600"></i>
+                    <div>
+                      <div class="font-semibold text-gray-900">56 Gbps</div>
+                      <div class="text-sm text-gray-600">Switching</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="space-y-4">
+                <a href="https://www.ds3comunicaciones.com/pedido.html" 
+                   class="w-full bg-blue-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span>Comprar Ahora</span>
+                </a>
+                <div class="grid grid-cols-2 gap-3">
+                  <a href="https://wa.me/994428965?text=Hola necesito información sobre TP-LINK TL-SG3424P" 
+                     class="bg-green-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-green-700 transition-colors flex items-center justify-center space-x-2">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                  </a>
+                  <button class="bg-gray-200 text-gray-800 py-3 px-4 rounded-lg font-medium hover:bg-gray-300 transition-colors flex items-center justify-center space-x-2">
+                    <i class="fas fa-heart"></i>
+                    <span>Favoritos</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="border-t pt-6">
+                <h3 class="font-semibold text-lg mb-3">Documentación</h3>
+                <div class="grid grid-cols-3 gap-3">
+                  <a href="#" class="flex flex-col items-center p-3 bg-red-50 rounded-lg hover:bg-red-100 transition-colors">
+                    <i class="fas fa-file-pdf text-2xl text-red-600 mb-1"></i>
+                    <span class="text-xs font-medium text-center">Ficha Técnica</span>
+                  </a>
+                  <a href="#" class="flex flex-col items-center p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                    <i class="fas fa-book text-2xl text-blue-600 mb-1"></i>
+                    <span class="text-xs font-medium text-center">Manual</span>
+                  </a>
+                  <a href="#" class="flex flex-col items-center p-3 bg-green-50 rounded-lg hover:bg-green-100 transition-colors">
+                    <i class="fas fa-file-alt text-2xl text-green-600 mb-1"></i>
+                    <span class="text-xs font-medium text-center">Especificaciones</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 bg-white rounded-xl shadow-lg overflow-hidden">
+          <div class="border-b">
+            <nav class="flex space-x-8 px-8">
+              <button class="tab-button py-4 px-2 border-b-2 border-blue-600 text-blue-600 font-medium" data-tab="specifications">
+                Especificaciones
+              </button>
+              <button class="tab-button py-4 px-2 border-b-2 border-transparent text-gray-500 hover:text-gray-700" data-tab="features">
+                Características
+              </button>
+              <button class="tab-button py-4 px-2 border-b-2 border-transparent text-gray-500 hover:text-gray-700" data-tab="applications">
+                Aplicaciones
+              </button>
+            </nav>
+          </div>
+
+          <div class="p-8">
+            <div id="specifications" class="tab-content">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 class="text-xl font-semibold mb-4">Especificaciones Técnicas</h3>
+                  <div class="space-y-3">
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Marca</span>
+                      <span class="text-gray-900">TP-LINK</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Modelo</span>
+                      <span class="text-gray-900">TL-SG3424P</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Puertos Gigabit</span>
+                      <span class="text-gray-900">24</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Puertos SFP</span>
+                      <span class="text-gray-900">4</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Presupuesto PoE</span>
+                      <span class="text-gray-900">320W</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Velocidad</span>
+                      <span class="text-gray-900">10/100/1000 Mbps</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Capacidad Switching</span>
+                      <span class="text-gray-900">56 Gbps</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-b border-gray-100">
+                      <span class="font-medium text-gray-600">Tabla MAC</span>
+                      <span class="text-gray-900">16K</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <h3 class="text-xl font-semibold mb-4">Conectividad y Rendimiento</h3>
+                  <div class="space-y-4">
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                      <h4 class="font-semibold text-blue-900 mb-2">Puertos y Conectividad</h4>
+                      <ul class="space-y-1 text-sm text-blue-800">
+                        <li>• 24 puertos 10/100/1000 Mbps con PoE</li>
+                        <li>• 4 puertos SFP/SFP+ para fibra óptica</li>
+                        <li>• Montaje en rack 19" (1U)</li>
+                        <li>• Gestión vía Web, CLI, SNMP y RMON</li>
+                      </ul>
+                    </div>
+                    
+                    <div class="bg-green-50 p-4 rounded-lg">
+                      <h4 class="font-semibold text-green-900 mb-2">Características Avanzadas</h4>
+                      <ul class="space-y-1 text-sm text-green-800">
+                        <li>• Soporte VLAN, QoS y Link Aggregation</li>
+                        <li>• Funciones de seguridad avanzadas</li>
+                        <li>• Protección contra tormentas Broadcast/Multicast</li>
+                        <li>• Soporte IGMP Snooping v1/v2/v3</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="features" class="tab-content hidden">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="text-center">
+                  <div class="feature-icon w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                    <i class="fas fa-shield-alt"></i>
+                  </div>
+                  <h3 class="text-lg font-semibold mb-2">Seguridad Avanzada</h3>
+                  <p class="text-gray-600 text-sm">Incorpora potentes funciones de seguridad con vinculación IP-MAC-puerto-VID y Listas de Control de Acceso (ACL) que protegen contra ataques Broadcast Storm, ARP y DoS.</p>
+                </div>
+                
+                <div class="text-center">
+                  <div class="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                    <i class="fas fa-tachometer-alt"></i>
+                  </div>
+                  <h3 class="text-lg font-semibold mb-2">Calidad de Servicio</h3>
+                  <p class="text-gray-600 text-sm">QoS de L2 a L4 permite gestionar mejor el tráfico de la red asegurando una transmisión de datos más fluida y rápida para aplicaciones críticas.</p>
+                </div>
+                
+                <div class="text-center">
+                  <div class="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                    <i class="fas fa-cogs"></i>
+                  </div>
+                  <h3 class="text-lg font-semibold mb-2">Gestión Completa</h3>
+                  <p class="text-gray-600 text-sm">Interfaz de gestión vía web, CLI, SNMP y RMON para una instalación y configuración rápida, así como mantenimientos remotos.</p>
+                </div>
+                
+                <div class="text-center">
+                  <div class="bg-yellow-600 w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                    <i class="fas fa-bolt"></i>
+                  </div>
+                  <h3 class="text-lg font-semibold mb-2">PoE Inteligente</h3>
+                  <p class="text-gray-600 text-sm">320W de presupuesto PoE total con soporte 802.3at/af para alimentar dispositivos como cámaras IP, access points y teléfonos VoIP.</p>
+                </div>
+                
+                <div class="text-center">
+                  <div class="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                    <i class="fas fa-network-wired"></i>
+                  </div>
+                  <h3 class="text-lg font-semibold mb-2">Conectividad Flexible</h3>
+                  <p class="text-gray-600 text-sm">4 puertos SFP para conexiones de fibra óptica de alta velocidad, ideal para enlaces troncales y conexiones a larga distancia.</p>
+                </div>
+                
+                <div class="text-center">
+                  <div class="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <h3 class="text-lg font-semibold mb-2">Alto Rendimiento</h3>
+                  <p class="text-gray-600 text-sm">Capacidad de switching de 56 Gbps con tabla de direcciones MAC de 16K para redes empresariales de alto tráfico.</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="applications" class="tab-content hidden">
+              <div class="space-y-8">
+                <div>
+                  <h3 class="text-2xl font-bold mb-6">Aplicaciones Ideales</h3>
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl">
+                      <div class="flex items-start space-x-4">
+                        <div class="bg-blue-600 p-3 rounded-lg">
+                          <i class="fas fa-building text-white text-xl"></i>
+                        </div>
+                        <div>
+                          <h4 class="text-lg font-semibold text-blue-900 mb-2">Redes Empresariales</h4>
+                          <p class="text-blue-800 text-sm">Ideal para oficinas y empresas que requieren un switch L2 con capacidad Gigabit Ethernet de alto rendimiento. Perfecto para conectar múltiples dispositivos de red con alimentación PoE.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">
+                      <div class="flex items-start space-x-4">
+                        <div class="bg-green-600 p-3 rounded-lg">
+                          <i class="fas fa-video text-white text-xl"></i>
+                        </div>
+                        <div>
+                          <h4 class="text-lg font-semibold text-green-900 mb-2">Sistemas de Videovigilancia</h4>
+                          <p class="text-green-800 text-sm">Excelente para sistemas de seguridad IP que requieren alimentación PoE para cámaras IP. El presupuesto de 320W permite alimentar múltiples cámaras de alta resolución.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl">
+                      <div class="flex items-start space-x-4">
+                        <div class="bg-purple-600 p-3 rounded-lg">
+                          <i class="fas fa-wifi text-white text-xl"></i>
+                        </div>
+                        <div>
+                          <h4 class="text-lg font-semibold text-purple-900 mb-2">Redes Inalámbricas</h4>
+                          <p class="text-purple-800 text-sm">Perfecto para implementar redes Wi-Fi empresariales alimentando múltiples access points. El QoS optimiza las aplicaciones de voz y video sobre la red inalámbrica.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl">
+                      <div class="flex items-start space-x-4">
+                        <div class="bg-orange-600 p-3 rounded-lg">
+                          <i class="fas fa-phone text-white text-xl"></i>
+                        </div>
+                        <div>
+                          <h4 class="text-lg font-semibold text-orange-900 mb-2">Telefonía IP</h4>
+                          <p class="text-orange-800 text-sm">Ideal para sistemas de comunicaciones VoIP que requieren alimentación PoE para teléfonos IP. Las características de QoS garantizan la calidad de las llamadas.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-xl">
+                  <h4 class="text-lg font-semibold mb-4">Ventajas Competitivas</h4>
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="flex items-start space-x-3">
+                      <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                      <div>
+                        <span class="font-medium">Administración Centralizada:</span>
+                        <p class="text-sm text-gray-600">Control total de la red con múltiples opciones de gestión.</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                      <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                      <div>
+                        <span class="font-medium">Escalabilidad:</span>
+                        <p class="text-sm text-gray-600">Fácil expansión con puertos SFP para conexiones de fibra.</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                      <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                      <div>
+                        <span class="font-medium">Eficiencia Energética:</span>
+                        <p class="text-sm text-gray-600">Gestión inteligente de energía PoE para optimizar el consumo.</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                      <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                      <div>
+                        <span class="font-medium">Confiabilidad:</span>
+                        <p class="text-sm text-gray-600">Calidad TP-LINK respaldada por garantía y soporte técnico.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="lg:col-span-2">
+        <div class="bg-white rounded-xl shadow-lg p-6 sticky top-24">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">Listas de Precios</h3>
+          <div class="space-y-2">
+            <a href="#" class="block p-3 rounded-lg hover:bg-blue-50 text-blue-600 hover:text-blue-700 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="font-medium">CISCO</span>
+                <i class="fas fa-external-link-alt text-xs"></i>
+              </div>
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-blue-50 text-blue-600 hover:text-blue-700 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="font-medium">D-Link</span>
+                <i class="fas fa-external-link-alt text-xs"></i>
+              </div>
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-blue-50 text-blue-600 hover:text-blue-700 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="font-medium">Mikrotik</span>
+                <i class="fas fa-external-link-alt text-xs"></i>
+              </div>
+            </a>
+            <a href="#" class="block p-3 rounded-lg bg-blue-100 border-2 border-blue-200 text-blue-700 font-semibold">
+              <div class="flex items-center justify-between">
+                <span>TP-LINK</span>
+                <i class="fas fa-star text-xs"></i>
+              </div>
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-blue-50 text-blue-600 hover:text-blue-700 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="font-medium">Ubiquiti</span>
+                <i class="fas fa-external-link-alt text-xs"></i>
+              </div>
+            </a>
+            <a href="#" class="block p-3 rounded-lg hover:bg-blue-50 text-blue-600 hover:text-blue-700 transition-colors">
+              <div class="flex items-center justify-between">
+                <span class="font-medium">Panduit</span>
+                <i class="fas fa-external-link-alt text-xs"></i>
+              </div>
+            </a>
+          </div>
+          
+          <div class="mt-6 p-4 bg-gradient-to-r from-green-400 to-green-600 rounded-lg text-white">
+            <h4 class="font-semibold mb-2">¿Necesitas ayuda?</h4>
+            <p class="text-sm mb-3 opacity-90">Contáctanos para asesoría personalizada</p>
+            <a href="https://wa.me/994428965" class="bg-white text-green-600 px-4 py-2 rounded-lg font-medium text-sm hover:bg-gray-100 transition-colors inline-flex items-center space-x-2">
+              <i class="fab fa-whatsapp"></i>
+              <span>Chat WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="mt-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Productos Relacionados</h2>
+        <p class="text-lg text-gray-600">Otros switches TP-LINK que podrían interesarte</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+   
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover group">
+          <div class="p-6">
+            <div class="aspect-square bg-gray-50 rounded-lg mb-4 flex items-center justify-center">
+              <img src="./icons/TL-SG3428.jpg"
+                    alt="TL-SG3428" class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform">
+            </div>
+            <h3 class="font-bold text-lg mb-2">TL-SG3428</h3>
+            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Switch administrable de 24 puertos Gigabit + 4 SFP, capa L2</p>
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-blue-600">Consultar</span>
+              <a href="#" class="text-blue-600 hover:text-blue-700">
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+     
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover group">
+          <div class="p-6">
+            <div class="aspect-square bg-gray-50 rounded-lg mb-4 flex items-center justify-center">
+              <img src="./icons/TL-SG3452.jpg"
+                  alt="TL-SG3452" class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform">
+            </div>
+            <h3 class="font-bold text-lg mb-2">TL-SG3452</h3>
+            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Switch administrable de 48 puertos Gigabit + 4 SFP, capa L2</p>
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-blue-600">Consultar</span>
+              <a href="#" class="text-blue-600 hover:text-blue-700">
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover group">
+          <div class="p-6">
+            <div class="aspect-square bg-gray-50 rounded-lg mb-4 flex items-center justify-center">
+              <img src="./icons/TL-SG3428.jpg"
+                  alt="TL-SG2428P" class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform">
+            </div>
+            <h3 class="font-bold text-lg mb-2">TL-SG2428P</h3>
+            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Switch Smart de 24 puertos Gigabit PoE+ + 4 SFP</p>
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-blue-600">Consultar</span>
+              <a href="#" class="text-blue-600 hover:text-blue-700">
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover group">
+          <div class="p-6">
+            <div class="aspect-square bg-gray-50 rounded-lg mb-4 flex items-center justify-center">
+              <img src="./icons/TL-SG3428.jpg"
+                    alt="TL-SG1024DE" class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform">
+            </div>
+            <h3 class="font-bold text-lg mb-2">TL-SG1024DE</h3>
+            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Switch no administrable de 24 puertos Gigabit desktop/rack</p>
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-blue-600">Consultar</span>
+              <a href="#" class="text-blue-600 hover:text-blue-700">
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+ 
+        <div class="space-y-4">
+          <img src="./icons/TL-SG3424P_front.jpg" alt="DS3 Comunicaciones" class="h-12 w-auto filter brightness-0 invert">
+          <p class="text-gray-300 text-sm">
+            Especialistas en soluciones de networking empresarial con más de 15 años de experiencia en el mercado peruano.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-facebook-f text-xl"></i>
+            </a>
+            <a href="https://wa.me/994428965" class="text-gray-400 hover:text-green-400 transition-colors">
+              <i class="fab fa-whatsapp text-xl"></i>
+            </a>
+            <a href="mailto:netperu100@hotmail.com" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fas fa-envelope text-xl"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Productos TP-LINK</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Switches Administrables</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Routers Empresariales</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Access Points</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Adaptadores de Red</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Antenas y Accesorios</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Soporte y Servicios</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Soporte Técnico</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Instalaciones</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Configuración</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Mantenimiento</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Garantías</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contacto</h3>
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3">
+              <i class="fas fa-phone text-blue-400"></i>
+              <div>
+                <p class="text-gray-300">+51 994 428 965</p>
+                <p class="text-gray-300">+51 996 533 223</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="fas fa-envelope text-blue-400"></i>
+              <p class="text-gray-300">netperu100@hotmail.com</p>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="fas fa-clock text-blue-400"></i>
+              <div>
+                <p class="text-gray-300 text-sm">Lun - Vie: 9:00 - 18:00</p>
+                <p class="text-gray-300 text-sm">Sáb: 9:00 - 13:00</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-6">
+            <h4 class="font-semibold mb-2">Newsletter</h4>
+            <div class="flex">
+              <input type="email" placeholder="Tu email" class="flex-1 px-3 py-2 bg-gray-800 text-white rounded-l-lg border border-gray-700 focus:outline-none focus:border-blue-500">
+              <button class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-lg transition-colors">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 mt-12 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="text-gray-400 text-sm">
+            © 2024 DS3 Comunicaciones. Todos los derechos reservados.
+          </div>
+          <div class="flex space-x-6 mt-4 md:mt-0">
+            <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Política de Privacidad</a>
+            <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Términos de Servicio</a>
+            <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4 hidden">
+    <div class="relative max-w-4xl max-h-full">
+      <button onclick="closeImageModal()" class="absolute -top-12 right-0 text-white text-3xl hover:text-gray-300 transition-colors">
+        <i class="fas fa-times"></i>
+      </button>
+      <img id="modalImage" src="" alt="Imagen ampliada" class="max-w-full max-h-full object-contain rounded-lg">
+    </div>
+  </div>
+
+  <div class="fixed bottom-6 right-6 z-40">
+    <a href="https://wa.me/994428965?text=Hola, necesito información sobre el switch TP-LINK TL-SG3424P" 
+       target="_blank"
+       class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110">
+      <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+  </div>
+
+    <script src="./js/TL-SG3424P.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Switch TP-LINK TL-SG3424P",
+    "description": "Switch Administrable de 24 puertos PoE Gigabit + 4 puertos SFP para fibra, capa L2",
+    "brand": {
+      "@type": "Brand",
+      "name": "TP-LINK"
+    },
+    "model": "TL-SG3424P",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.ds3comunicaciones.com/tplink/TL-SG3424P.html",
+      "priceCurrency": "USD",
+      "price": "509.00",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "DS3 Comunicaciones"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127"
+    }
+  }
+  </script>
+</body>
+
+</html>
